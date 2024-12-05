@@ -50,16 +50,23 @@ def birdweather_source(access_token: Optional[str] = dlt.secrets.value) -> Any:
     yield from rest_api_resources(config)
 
 
-# def load_birdweather() -> None:
-#     pipeline = dlt.pipeline(
-#         pipeline_name="rest_api_birdweather",
-#         destination="duckdb",
-#         dataset_name="birdweather_stations",
-#     )
-#
-#     load_info = pipeline.run(birdweather_source())
-#     print(load_info)  # noqa: T201
-#
-#
-# if __name__ == "__main__":
-#     load_birdweather()
+@dlt.source(name="birdweather_species")
+def birdweather_species_source() -> Any:
+    config: RESTAPIConfig = {
+        "client": {
+            "base_url": "https://app.birdweather.com/api/v1",
+            "headers": {"Content-Type": "application/json"},
+        },
+        "resources": [
+            {
+                "name": "species",
+                "endpoint": {
+                    "path": "species/lookup",
+                    "json": {"species": ["Passer domesticus_House Sparrow"]},
+                    "method": "POST",
+                },
+            },
+        ],
+    }
+
+    yield from rest_api_resources(config)
