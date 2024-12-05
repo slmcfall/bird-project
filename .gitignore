@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+.telemetry
+.logs_queue
+.nux
+.python-version
+bird_project.egg-info/
+
+# dagster
+storage/
+logs/
+history/
+schedules/
+
