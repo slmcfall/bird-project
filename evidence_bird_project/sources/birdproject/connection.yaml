@@ -1,0 +1,5 @@
+# This file was automatically generated
+name: birdproject
+type: duckdb
+options:
+  filename: ../../../birdweather_pipeline.duckdb

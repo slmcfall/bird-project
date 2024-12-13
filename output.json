@@ -1,0 +1,42 @@
+{
+  "Branta canadensis_Canada Goose": {
+    "id": 100,
+    "commonName": "Canada Goose",
+    "scientificName": "Branta canadensis",
+    "color": "#bc0071",
+    "imageUrl": "https://media.birdweather.com/species/100/CanadaGoose-standard-cd1617f2500d71d064f7cecf3e81c1b1.jpg",
+    "thumbnailUrl": "https://media.birdweather.com/species/100/CanadaGoose-thumbnail-bf828621d386d52d5de2a9a4f1f569d3.jpg",
+    "infoUrl": "https://app.birdweather.com/species/canada-goose",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Canada_goose"
+  },
+  "Zonotrichia albicollis_White-throated Sparrow": {
+    "id": 148,
+    "commonName": "White-throated Sparrow",
+    "scientificName": "Zonotrichia albicollis",
+    "color": "#ac99ff",
+    "imageUrl": "https://media.birdweather.com/species/148/White-throatedSparrow-standard-298c9fc553f98b77d0e2916ade20a076.jpg",
+    "thumbnailUrl": "https://media.birdweather.com/species/148/White-throatedSparrow-thumbnail-524c0dc237241ca45912a503819306af.jpg",
+    "infoUrl": "https://app.birdweather.com/species/white-throated-sparrow",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/White-throated_sparrow"
+  },
+  "Troglodytes hiemalis_Winter Wren": {
+    "id": 354,
+    "commonName": "Winter Wren",
+    "scientificName": "Troglodytes hiemalis",
+    "color": "#ff5499",
+    "imageUrl": "https://media.birdweather.com/species/354/WinterWren-standard-c990597573fbac762225def2e58aead7.jpg",
+    "thumbnailUrl": "https://media.birdweather.com/species/354/WinterWren-thumbnail-e2aa013188c58e0286af5696e0006f9e.jpg",
+    "infoUrl": "https://app.birdweather.com/species/winter-wren",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Winter_wren"
+  },
+  "Regulus satrapa_Golden-crowned Kinglet": {
+    "id": 41,
+    "commonName": "Golden-crowned Kinglet",
+    "scientificName": "Regulus satrapa",
+    "color": "#0268e1",
+    "imageUrl": "https://media.birdweather.com/species/41/Golden-crownedKinglet-standard-5a054aa6979fac7d1b338d4e7cb77887.jpg",
+    "thumbnailUrl": "https://media.birdweather.com/species/41/Golden-crownedKinglet-thumbnail-04cbb251917690ca5baf03d0bca948a7.jpg",
+    "infoUrl": "https://app.birdweather.com/species/golden-crowned-kinglet",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Golden-crowned_kinglet"
+  }
+}

@@ -1,0 +1,18 @@
+version: 2
+sources:
+  - name: birdweather
+    database: birdweather_pipeline
+    schema: birdweather
+    tables:
+      - name: detections
+        meta:
+          dagster:
+            asset_key: ["dlt_birdweather_detections"]
+      - name: species
+        meta:
+          dagster:
+            asset_key: ["station_species_metadata"]
+      - name: stations
+        meta:
+          dagster:
+            asset_key: ["dlt_birdweather_stations"]

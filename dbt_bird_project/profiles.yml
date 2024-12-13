@@ -1,0 +1,7 @@
+dbt_bird_project:
+  outputs:
+    dev:
+      type: duckdb
+      path: ../birdweather_pipeline.duckdb
+      threads: 4
+  target: dev

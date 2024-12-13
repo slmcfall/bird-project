@@ -1,0 +1,16 @@
+models:
+  - name: detections_stg
+    config:
+      meta:
+        dagster:
+          group: staging
+  - name: species_stg
+    config:
+      meta:
+        dagster:
+          group: staging
+  - name: stations_stg
+    config:
+      meta:
+        dagster:
+          group: staging
